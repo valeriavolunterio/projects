@@ -1,0 +1,59 @@
+/*backgrounds*/
+body {
+  background-color: #94869c;
+  background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
+}
+
+/*grids*/
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*type*/
+h1 {
+  padding-left: 2vw;
+  padding-top: 2vw;
+  font-size: 2em;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: azure;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  color: azure;
+}
+
+/*images*/
+img {
+  width: 100%;
+}
+
+hr {
+  width: 70%;
+  border: 1px solid #756a7c;
+  color: #88567c;
+  background-color: #88567c;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+}
+
+/*other*/
+#item1 {
+  background-color: #ca8a82;
+}
+#item2 {
+  background-color: #9190a5;
+}
+#item3 {
+  background-color: #88567c;
+}
+#item4 {
+  background-color: #473952;
+}
