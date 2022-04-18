@@ -1,0 +1,233 @@
+/* gerneral -----*/
+body {
+  background-color: #e4e0db;
+  background-image: url("../img/background.png");
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  background-position: bottom 4rem right 3em;
+  margin: 0px;
+  font-family: coranto-2, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* header -----*/
+header {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 2.5rem 220px;
+  padding: 0.625rem 5rem;
+  background-color: #304019;
+  color: #eee7e1;
+}
+h1 {
+  margin: 1rem auto;
+  font-family: prenton-display, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+/* sidebar -----*/
+.sidebar {
+  z-index: 1;
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #445925;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eee7e1;
+}
+.sidebar img {
+  width: 180px;
+  border-radius: 50%;
+}
+/* main content -----*/
+.main {
+  position: relative;
+  min-height: 85vh;
+  margin: 0px 0px 0px 220px;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+legend {
+  width: auto;
+  margin: 5px auto;
+  padding: 1px 10px;
+  font-size: 0.95em;
+  color: #eee7e1;
+  background-color: #49516a;
+  border-radius: 7px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  margin: 0px auto;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #e3ebfe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 4rem;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  background: #61677c;
+  color: #eee7e1;
+  font-size: 1em;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+}
+input[type="submit"]:hover:enabled {
+  background: #4b526b;
+  box-shadow: 0 6px 20px -5px rgba(31, 30, 30, 0.4);
+}
+input:disabled {
+  background: #4b4d52;
+  color: #a9a9a9;
+}
+/* personal info -----*/
+#personalInfo {
+  width: 50%;
+  background-color: #dfd5cbaf;
+  color: #453b3a;
+  border: dashed 2px #5e616b78;
+  padding: 2rem 0rem 1rem;
+  margin-bottom: 3.125rem;
+}
+#personalInfo .gridItem {
+  height: 3.75rem;
+}
+#personalInfo label {
+  margin-left: 1.25rem;
+}
+input[type="text"] {
+  width: 80%;
+  height: 1.25rem;
+  background-color: #efece8;
+  border: none;
+  margin-left: 1.25rem;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+.hint {
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -1rem;
+}
+#icon {
+  display: inline-flex;
+  width: 1.25rem;
+}
+.hint p {
+  display: inline;
+  margin-left: 0.625rem;
+}
+/* survey -----*/
+#survey {
+  width: 50%;
+  background-color: #dfd5cbaf;
+  color: #453b3a;
+  border: dashed 2px #5e616b78;
+  padding: 2rem 0rem;
+  margin-bottom: 3.125rem;
+}
+#survey img {
+  margin: 0.5rem 4rem 1.25rem auto;
+  float: right;
+  width: 9.4rem;
+  border-radius: 50%;
+}
+.question {
+  margin-top: 0.625rem;
+}
+/* results -----*/
+#results {
+  display: flex;
+  margin: 1.25rem auto 10rem;
+  width: 80%;
+  padding: 1.25rem;
+  border: dashed 2px #5e616b78;
+  background-color: #959aa89b;
+}
+.column {
+  flex: 40%;
+}
+/* column 1 -----*/
+h3 {
+  font-family: coranto-2-headline, serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: 1.25rem auto 0.313rem;
+  color: #2b3447;
+}
+#userInfo {
+  padding: 0.625rem 4.375rem;
+}
+#userSelect {
+  padding: 0px 4.375rem 1.25rem;
+}
+/* column 2 -----*/
+h2 {
+  font-family: coranto-2-headline, serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: 1.25rem auto 0.313rem;
+  color: #061b46;
+}
+figure {
+  margin-left: -0.5rem;
+}
+#sukiImg {
+  width: 25rem;
+  margin: 0px auto 0.625rem;
+  border: solid 1rem white;
+}
+a {
+  text-decoration: none;
+  color: #13223fa3;
+}
+/* footer -----*/
+#footerContainer {
+  margin-top: 4rem;
+  height: 4rem;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #373e5247;
+}
+footer p {
+  font-family: coranto-2, serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-right: 1rem;
+}

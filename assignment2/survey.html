@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Survery &mdash; Valeria Volunterio</title>
+    <script src="js/process_form.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/ecf1yje.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>What type of Suki are you today?</h1>
+    </header>
+    <div class="sidebar">
+      <img src="img/suki.jpg" />
+      <p>Hi, I'm Suki!</p>
+    </div>
+    <div class="main">
+      <form>
+        <fieldset id="personalInfo">
+          <legend>Personal Info:</legend>
+          <div class="grid">
+            <div class="gridItem">
+              <label for="firstName">First Name</label><br />
+              <input
+                id="firstName"
+                type="text"
+                name="firstName"
+                value=""
+              /><br />
+            </div>
+            <div class="gridItem hint">
+              <p>
+                Please enter a valid first name <br />
+                (must contain letters only)
+              </p>
+            </div>
+            <div class="gridItem">
+              <label for="lastName">Last Name</label><br />
+              <input id="lastName" type="text" name="lastName" value="" /><br />
+            </div>
+            <div class="gridItem hint">
+              <p>
+                Please enter a valid last name <br />
+                (must contain letters only)
+              </p>
+            </div>
+            <div class="gridItem">
+              <label for="phone">Phone Number</label><br />
+              <input id="phone" type="text" name="phone" value="" />
+            </div>
+            <div class="gridItem hint">
+              <p>Please enter a valid phone number (must contain -)</p>
+            </div>
+            <div class="gridItem">
+              <label for="email">E-mail Address</label><br />
+              <input id="email" type="text" name="email" value="" /><br />
+            </div>
+            <div class="gridItem hint">
+              <p>Please enter a valid e-mail address (must contain @)</p>
+            </div>
+            <div class="gridItem">
+              <label for="address">Students Address</label><br />
+              <input id="address" type="text" name="address" value="" />
+            </div>
+            <div class="gridItem hint">
+              <p>Please enter a valid e-mail address (must contain ~)</p>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset id="survey">
+          <legend>Survey Questions:</legend>
+          <div class="grid">
+            <div class="gridItem">
+              <img src="img/coffee.jpg" />
+            </div>
+            <div class="gridItem question">
+              <p>Did you have coffee this morning?</p>
+              <input type="radio" id="coffee1" name="coffee" value="happy" />
+              <label for="coffee1">Yes</label><br />
+              <input type="radio" id="coffee2" name="coffee" value="grumpy" />
+              <label for="coffee2">No</label><br />
+              <input type="radio" id="coffee3" name="coffee" value="ok" />
+              <label for="coffee3">I don't drink coffee</label>
+            </div>
+            <div class="gridItem">
+              <img src="img/commute.jpg" />
+            </div>
+            <div class="gridItem question">
+              <p>How was your commute today?</p>
+              <input type="radio" id="commute1" name="commute" value="happy" />
+              <label for="commute1">It was great, very calm</label><br />
+              <input type="radio" id="commute2" name="commute" value="grumpy" />
+              <label for="commute2">The worst, so much traffic!</label><br />
+              <input type="radio" id="commute3" name="commute" value="ok" />
+              <label for="commute3">Just the usual</label><br /><br />
+            </div>
+            <div class="gridItem">
+              <img src="img/day.jpg" />
+            </div>
+            <div class="gridItem question">
+              <p>How's your day going so far?</p>
+              <input type="radio" id="day1" name="day" value="happy" />
+              <label for="day1">Relaxing and enjoying my day off</label><br />
+              <input type="radio" id="day2" name="day" value="grumpy" />
+              <label for="day2">Just another manic monday</label><br />
+              <input type="radio" id="day3" name="day" value="ok" />
+              <label for="day3">Looking forward to the weekend</label>
+            </div>
+          </div>
+        </fieldset>
+        <input
+          id="submitBtn"
+          type="submit"
+          value="Submit"
+          disabled="disabled"
+        />
+      </form>
+      <div id="results">
+        <div class="column">
+          <div id="userInfo">
+            <h3>Your personal info:</h3>
+            <p><b>First Name: </b></p>
+            <p><b>Last Name: </b></p>
+            <p><b>Phone Number: </b></p>
+            <p><b>E-mail Address: </b></p>
+            <p><b>Students Address: </b></p>
+          </div>
+          <div id="userSelect">
+            <h3>You selected:</h3>
+            <p><b>Did you have coffee this morning?</b></p>
+            <p></p>
+            <p><b>How was your commute today?</b></p>
+            <p></p>
+            <p><b>How's your day going so far?</b></p>
+            <p></p>
+          </div>
+        </div>
+        <div id="sukiResult" class="column">
+          <h2></h2>
+          <figure>
+            <figcaption><a>Click or copy this link!</a></figcaption>
+          </figure>
+        </div>
+      </div>
+      <footer>
+        <p>Created by Valeria Volunterio</p>
+      </footer>
+    </div>
+  </body>
+</html>
