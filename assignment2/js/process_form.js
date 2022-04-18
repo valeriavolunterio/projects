@@ -199,17 +199,17 @@ function init() {
       h2.textContent = "You got: Grumpy Suki!";
       img.src = "img/grumpy.jpg";
       link.href =
-        "https://students.cah.ucf.edu/~va068449/dig3716c/assignment2/img/grumpy.jpg";
+        "https://valeriavolunterio.github.io/projects/assignment2/img/grumpy.jpg";
     } else if (valArr.indexOf("happy") != valArr.lastIndexOf("happy")) {
       h2.textContent = "You got: Happy Suki!";
       img.src = "img/happy.jpg";
       link.href =
-        "https://students.cah.ucf.edu/~va068449/dig3716c/assignment2/img/happy.jpg";
+        "https://valeriavolunterio.github.io/projects/assignment2/img/happy.jpg";
     } else {
       h2.textContent = "You got: Ambivalent Suki!";
       img.src = "img/ok.jpg";
       link.href =
-        "https://students.cah.ucf.edu/~va068449/dig3716c/assignment2/img/ok.jpg";
+        "https://valeriavolunterio.github.io/projects/assignment2/img/ok.jpg";
     }
   }
 }
