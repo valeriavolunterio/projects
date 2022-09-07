@@ -1,1 +1,36 @@
-.i1{background-color:rgba(50,48,70,0.5)}.i1 figure{background-color:#acacac}.i1 figcaption{color:#443914}.i2{background-color:rgba(68,58,75,0.4)}.i2 figure{background-color:#b6b6b6}.i2 figcaption{color:#372b00}.i3{background-color:rgba(20,19,27,0.5)}.i3 figure{background-color:#9d9d9d}.i3 figcaption{color:#000}.i4{background-color:rgba(37,31,41,0.4)}.i4 figure{background-color:#b7b7b7}.i4 figcaption{color:#000}
+.i1 {
+  background-color: rgba(50, 48, 70, 0.5);
+}
+.i1 figure {
+  background-color: #acacac;
+}
+.i1 figcaption {
+  color: #443914;
+}
+.i2 {
+  background-color: rgba(68, 58, 75, 0.4);
+}
+.i2 figure {
+  background-color: #b6b6b6;
+}
+.i2 figcaption {
+  color: #372b00;
+}
+.i3 {
+  background-color: rgba(20, 19, 27, 0.5);
+}
+.i3 figure {
+  background-color: #9d9d9d;
+}
+.i3 figcaption {
+  color: #000;
+}
+.i4 {
+  background-color: rgba(37, 31, 41, 0.4);
+}
+.i4 figure {
+  background-color: #b7b7b7;
+}
+.i4 figcaption {
+  color: #000;
+}
