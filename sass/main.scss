@@ -1,9 +1,0 @@
-//importing the different documents
-@import "variables";
-@import "mixins";
-@import "_style";
-
-//including mixins
-@include grid;
-@include sidebar;
-@include columns;
